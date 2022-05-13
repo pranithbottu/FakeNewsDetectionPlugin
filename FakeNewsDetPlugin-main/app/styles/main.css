@@ -1,0 +1,49 @@
+.hoverActiveParent.border{
+    outline: 3px solid yellow !important;
+}
+
+#SentenceSegmentationPopup{
+    width:250px;
+}
+
+.segmentSeparator{
+    background: none !important;
+    height:6px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    border: none !important;
+}
+.segmentSeparator.sepBorder{
+    border-bottom: 1px solid #dedede !important;
+}
+
+#SentenceSegmentationPopup label span{
+    font-size: 14px;
+    vertical-align: super;
+}
+
+#SentenceSegmentationPopup label input[type="checkbox"]{
+    height: 20px;
+    width:20px;
+}
+
+#SentenceSegmentationPopup p {
+    text-align: center;
+}
+
+#SentenceSegmentationPopup label {
+    display: block;
+    transition: 0s;
+}
+
+#SentenceSegmentationPopup label:hover{
+    background: #666;
+    color: white;
+    transition: 0.3s;
+}
+
+#segmentThisPage{
+    width:100%;
+    padding: 10px 0;
+}
